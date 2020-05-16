@@ -17,10 +17,31 @@
         height="440px"
         :src="slide.src"
       >
-        <v-card-title>Бурганова Альфия, 16 лет</v-card-title>
-         <v-card-text>Идиопатический прогрессирующий сколиоз 4-й степени, спасет операция</v-card-text>
-       <v-btn text small>Пожертвовать</v-btn>
-        </v-img>
+         <v-card-item>
+           <v-card-title><h2>Бурганова Альфия, 16 лет</h2></v-card-title>
+         <v-card-text>
+           <h2>Идиопатический прогрессирующий сколиоз 4-й степени, спасет операция</h2>
+                 <div class="progress">
+                <div class="collected">
+                  <p>Собрано</p>
+                  <h2>65 065 ₽</h2>
+                </div>
+                <div class="left">
+                  <p>Осталось</p>
+                  <h2>435 435 ₽</h2>
+                </div>
+               <div class="need">
+                <p>Необходимо</p>
+                <h2>500 500 ₽</h2>
+               </div>
+               </div>
+           <div class="button_slider_button">
+                 <img src="img/Group28.png">
+                 <a href="">Пожертвовать</a>
+               </div>
+                </v-card-text>
+                </v-card-item>
+                </v-img>
                      </v-card>
        </v-carousel-item>
   </v-carousel>
