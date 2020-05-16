@@ -17,7 +17,8 @@
         height="440px"
         :src="slide.src"
       >
-        <v-card-title>Бурганова Альфия</v-card-title>
+        <v-card-title>Бурганова Альфия, 16 лет</v-card-title>
+         <v-card-text>Идиопатический прогрессирующий сколиоз 4-й степени, спасет операция</v-card-text>
        <v-btn text small>Пожертвовать</v-btn>
         </v-img>
                      </v-card>
