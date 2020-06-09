@@ -3,11 +3,7 @@ function openSearcher () {
     'SearchContainer',
   );
 
-  searchModalWindow
-    .classList
-    .remove(
-      'd-none',
-    );
+  searchModalWindow.style.display = 'block';
 }
 
 export default openSearcher;
