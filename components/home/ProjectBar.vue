@@ -35,11 +35,11 @@ export default Vue.extend({
     return {
       projects: [
         { title: 'Пункт приема и раздачи одежды' },
-        { title: 'Пункт приема и раздачи одежды', src: require('@/assets/images/projects/2.png') },
-        { title: 'Пункт приема и раздачи одежды', src: require('@/assets/images/projects/3.png') },
+        { title: 'Пункт приема и раздачи одежды', src: require('~/assets/images/projects/2.png') },
+        { title: 'Пункт приема и раздачи одежды', src: require('~/assets/images/projects/3.png') },
         { title: 'Пункт приема и раздачи одежды' },
-        { title: 'Пункт приема и раздачи одежды', src: require('@/assets/images/projects/4.png') },
-        { title: 'Пункт приема и раздачи одежды', src: require('@/assets/images/projects/5.png') },
+        { title: 'Пункт приема и раздачи одежды', src: require('~/assets/images/projects/4.png') },
+        { title: 'Пункт приема и раздачи одежды', src: require('~/assets/images/projects/5.png') },
         { title: 'Пункт приема и раздачи одежды' },
         { title: 'Пункт приема и раздачи одежды' },
       ],

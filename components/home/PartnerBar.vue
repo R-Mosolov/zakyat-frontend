@@ -58,13 +58,13 @@ export default Vue.extend({
   data () {
     return {
       partners: [
-        { src: require('@/assets/images/partners/1.svg') },
-        { src: require('@/assets/images/partners/2.png') },
+        { src: require('~/assets/images/partners/1.svg') },
+        { src: require('~/assets/images/partners/2.png') },
         { src: 'http://zakyatrt.ru/wp-content/uploads/2014/09/logo_info_islam.png' },
-        { src: require('@/assets/images/partners/3.png') },
-        { src: require('@/assets/images/partners/4.png') },
-        { src: require('@/assets/images/partners/5.png') },
-        { src: require('@/assets/images/partners/6.png') },
+        { src: require('~/assets/images/partners/3.png') },
+        { src: require('~/assets/images/partners/4.png') },
+        { src: require('~/assets/images/partners/5.png') },
+        { src: require('~/assets/images/partners/6.png') },
         { src: 'http://zakyatrt.ru/wp-content/uploads/2016/06/1-e1466931484244.jpg' },
         { src: 'http://zakyatrt.ru/wp-content/uploads/2016/06/1-e1466931484244.jpg' },
         { src: 'http://zakyatrt.ru/wp-content/uploads/2016/06/1-e1466931484244.jpg' },

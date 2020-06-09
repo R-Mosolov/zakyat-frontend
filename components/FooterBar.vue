@@ -54,7 +54,7 @@
 
 <script lang="ts">
 import Vue from 'vue';
-import LanguageSelector from '@/components/LanguageSelector.vue';
+import LanguageSelector from '~/components/LanguageSelector.vue';
 
 export default Vue.extend({
   components: {

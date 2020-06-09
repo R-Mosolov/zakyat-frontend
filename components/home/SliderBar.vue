@@ -105,14 +105,14 @@ export default Vue.extend({
     return {
       slides: [
         {
-          src: require('@/assets/images/slideshow1.jpg'),
+          src: require('~/assets/images/slideshow1.jpg'),
           title: 'Бурганова Альфия, 16 лет',
           description: 'Идиопатический прогрессирующий сколиоз 4-й степени, спасет операция',
           required: 500_500,
           collected: 65_065,
         },
         {
-          src: require('@/assets/images/slideshow2.jpg'),
+          src: require('~/assets/images/slideshow2.jpg'),
           title: 'Садыков Амирхан, 11 лет',
           description: 'ДЦП',
           required: 500_500,

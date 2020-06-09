@@ -41,11 +41,11 @@ export default Vue.extend({
     return {
       projects: [
         { title: 'Пункт приема и раздачи одежды', button: 'Хочу помочь' },
-        { title: 'Пункт приема и раздачи одежды', button: 'Хочу помочь', src: require('@/assets/images/projects/funded/1.png') },
+        { title: 'Пункт приема и раздачи одежды', button: 'Хочу помочь', src: require('~/assets/images/projects/funded/1.png') },
         { title: 'Пункт приема и раздачи одежды', button: 'Хочу помочь' },
-        { title: 'Пункт приема и раздачи одежды', button: 'Хочу помочь', src: require('@/assets/images/projects/funded/3.png') },
+        { title: 'Пункт приема и раздачи одежды', button: 'Хочу помочь', src: require('~/assets/images/projects/funded/3.png') },
         { title: 'Пункт приема и раздачи одежды', button: 'Хочу помочь' },
-        { title: 'Пункт приема и раздачи одежды', button: 'Хочу помочь', src: require('@/assets/images/projects/funded/2.png') },
+        { title: 'Пункт приема и раздачи одежды', button: 'Хочу помочь', src: require('~/assets/images/projects/funded/2.png') },
       ],
     };
   },

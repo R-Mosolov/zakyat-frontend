@@ -1,6 +1,7 @@
 <template>
   <v-app>
     <HeaderBar />
+    <SearchBar />
     <NavBar />
     <v-divider />
     <v-content>
@@ -13,13 +14,15 @@
 <script lang="ts">
 import Vue from 'vue';
 
-import HeaderBar from '@/components/HeaderBar.vue';
+import HeaderBar from '~/components/HeaderBar.vue';
 import NavBar from '@/components/NavBar.vue';
 import FooterBar from '@/components/FooterBar.vue';
+import SearchBar from '@/components/SearchBar.vue';
 
 export default Vue.extend({
   components: {
     HeaderBar,
+    SearchBar,
     NavBar,
     FooterBar,
   },
