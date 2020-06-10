@@ -37,7 +37,7 @@
 import Vue from 'vue';
 import LanguageSelector from '~/components/LanguageSelector.vue';
 import { rubles } from '~/plugins/currency';
-import openSearcher from '~/plugins/searcher/open-searcher';
+import toggleSearcher from '~/plugins/toggle-searcher';
 
 export default Vue.extend({
   components: {
@@ -50,7 +50,7 @@ export default Vue.extend({
   },
   methods: {
     rubles,
-    openSearcher,
+    openSearcher: toggleSearcher,
   },
 });
 </script>
