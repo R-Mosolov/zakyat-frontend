@@ -2,7 +2,6 @@
   <v-col id="searcher">
     <v-autocomplete
       id="searcher__input"
-      v-model="value"
       :items="items"
       background-color="white"
       item-color="green"
